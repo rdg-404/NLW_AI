@@ -1,6 +1,7 @@
 ## Templates personalizados com AI
 
 Comandos para executar a aplicação:
+<br>
 `
 pnpm install
 `
