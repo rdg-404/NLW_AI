@@ -17,7 +17,7 @@ pnpm run dev
 
 > Rodar a aplicação e o servidor
 
-#### O modelo da pasta `.env` deve serguir:
+#### O modelo da pasta `.env` na aplicação web deve serguir:
 
 
 > OPENAI_KEY="codigo da sua chave gerada no site da Openai"
