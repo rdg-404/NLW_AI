@@ -1,0 +1,18 @@
+###
+POST http://localhost:3333/videos/2e45b91b-5564-455c-b833-b67adb02bad6/transcription
+Content-Type: application/json
+
+{
+  "prompt": "esquecer, jogo, red dead"
+}
+
+###
+# @name generate-ai-completion 
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "2e45b91b-5564-455c-b833-b67adb02bad6",
+  "temperature": 0.5,
+  "prompt": "gere um resumo da transcrição do video informada a seguir: '''{transcription}'''"
+}
